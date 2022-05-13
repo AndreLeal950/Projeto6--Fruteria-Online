@@ -1,12 +1,26 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import Listfruits from '../lista/Listfruits';
+import React, { Fragment } from 'react'
+import fruits from '../constants/fruits';
+import Card from '../components/Cards/Card';
+
+
+
+
+
 
 const Home = () => {
-    return (
-      <Link to="/cart"> Ir para a página de compras</Link>
-
-      // {Listfruits.map()}
+  
+  
+  return (
+    <Fragment>
+    
+             {fruits.map((e) => <Card image={e.image} name={e.name} price={e.price}/>)}
+        
+  
+      </Fragment>
+      
+     
+   
+    
   )
   
 }
