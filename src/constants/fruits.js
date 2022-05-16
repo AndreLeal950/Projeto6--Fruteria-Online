@@ -7,15 +7,15 @@ import manga from '../image/manga.png';
 
 
 
-export const fruits = 
+const fruits = 
 
   [
   
-  { image: abacate, name: 'abacate', price: 5 },
-  { image: banana, name: 'banana', price: 6 },
-  { image: laranja, name: 'laranja', price: 5.5 },
-  { image: maça, name: 'maça', price: 3 },
-  { image: manga, name: 'manga', price: 6}
+  { image: abacate, name: 'Abacate', price: 5 },
+  { image: banana, name: 'Banana', price: 6 },
+  { image: laranja, name: 'Laranja', price: 5.5 },
+  { image: maça, name: 'Maçã', price: 3 },
+  { image: manga, name: 'Manga', price: 6}
 
  ]
 
